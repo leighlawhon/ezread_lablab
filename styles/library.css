@@ -1,0 +1,38 @@
+/* NAVIGATION */ 
+.navbar{
+    background-color: #004e83;
+    color: white;
+    
+}
+.nav-link{
+    position: relative; 
+    display: block;
+    background-color: transparent; 
+    z-index: 1;
+}
+.nav-link img{
+    width: 30px;
+    height: 25px;
+    vertical-align: middle;
+    
+}
+.nav-links {
+    flex-wrap: nowrap;
+}
+.nav-link:hover{
+    display: block;
+    background-color: #001624;
+    z-index: 2;
+    
+}
+.nav-link:hover::before{
+    content: "";
+    position: absolute;
+    top: -100%;
+    bottom: -100%;
+    width: 150px;
+    right: -17px;
+    z-index: -1;
+    background-color: #001624;
+    transform: translateY(0%);
+}
