@@ -9,12 +9,7 @@
     display: block;
     background-color: transparent; 
     z-index: 1;
-}
-.nav-link img{
-    width: 30px;
-    height: 25px;
-    vertical-align: middle;
-    
+    font-weight: bold;
 }
 .nav-links {
     flex-wrap: nowrap;
@@ -22,6 +17,7 @@
 .nav-link:hover{
     display: block;
     background-color: #001624;
+    color: #aafcff;
     z-index: 2;
     
 }
@@ -35,4 +31,7 @@
     z-index: -1;
     background-color: #001624;
     transform: translateY(0%);
+}
+.nav-link:hover svg .cls-1 {
+    fill: #aafcff;
 }
