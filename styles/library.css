@@ -38,3 +38,11 @@
 .nav-link:hover svg .cls-1 {
     fill: #aafcff;
 }
+/*
+.card{
+    border: none;
+}
+    */
+h3{
+    color: #004e83;
+}    
